@@ -4,7 +4,7 @@
 An interactive Power BI dashboard for analyzing e-commerce sales performance.
 
 ## Dashboard Preview
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](e-commerce%20sales%20analysis%20dashboard.png)
 
 ## Key Performance Indicators
 - Total Sales
