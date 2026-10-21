@@ -1,2 +1,31 @@
-# e-commerce-sales-analysis
-Interactive Power BI dashboard for analyzing e-commerce sales, monthly trends, top products, and country-wise performance.
+# E-commerce Sales Analysis Dashboard
+
+## Project Overview
+An interactive Power BI dashboard for analyzing e-commerce sales performance.
+
+## Dashboard Preview
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+## Key Performance Indicators
+- Total Sales
+- Total Orders
+- Total Customers
+- Total Quantity
+
+## Analysis
+- Monthly Sales Trend
+- Top 10 Products by Sales
+- Sales by Country
+- Interactive Year and Country filters
+
+## Tools Used
+- Microsoft Power BI
+- DAX
+- Data Visualization
+- Data Analysis
+
+## Project File
+E-Commerce_Sales_Analysis.pbix
+
+## Objective
+To analyze e-commerce transaction data and present business insights through an interactive dashboard.
