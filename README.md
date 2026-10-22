@@ -41,3 +41,22 @@ Created an interactive dashboard featuring:
 
 ## Objective
 To practice SQL-based business analysis and communicate sales insights through an interactive Power BI dashboard.
+## Data Quality Limitations
+
+- **Cancelled Invoices:** The Total Orders KPI counts distinct invoice numbers, including cancellation-related invoices. Therefore, it should not be interpreted as the exact number of completed orders.
+
+- **Negative Quantities:** The dataset contains approximately 11,000 transaction rows with negative quantities. These may represent returns or adjustments and require further investigation.
+
+- **Missing Customer IDs:** The Total Customers measure excludes blank CustomerIDs, so it represents identified customers rather than every possible customer.
+
+- **Incomplete December Data:** December 2011 contains data only through December 9. Therefore, its sales should not be directly compared with complete months.
+
+- **Postage Items:** Postage-related entries have been excluded from the Top 10 merchandise chart. However, they remain included in the overall Total Sales calculation.
+
+## Business Recommendations
+
+- Monitor cancellation-related invoices separately from total invoices.
+- Investigate negative quantities to understand returns and transaction adjustments.
+- Maintain sufficient stock of high-revenue products based on demand analysis.
+- Compare sales over equivalent time periods and investigate monthly trends.
+- Explore opportunities to improve sales in countries beyond the United Kingdom.
