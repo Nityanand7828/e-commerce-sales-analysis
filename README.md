@@ -41,6 +41,16 @@ Created an interactive dashboard featuring:
 
 ## Objective
 To practice SQL-based business analysis and communicate sales insights through an interactive Power BI dashboard.
+
+## Business Insights & Recommendations
+
+- **Monthly Sales Trend:** November 2011 recorded the highest monthly sales in the dataset. December 2011 covers data only through December 9, so it should not be directly compared with complete months.
+
+- **Country-wise Sales:** The United Kingdom generated the highest sales among the countries in the dataset. The business can monitor demand and product availability in this market while exploring growth opportunities in other countries.
+
+- **Top 10 Products:** After excluding postage-related entries, Regency Cakestand 3 Tier ranked highest by sales among the products shown in the updated chart. The business should monitor demand for high-revenue products and review stock levels.
+
+- **Cancellation Analysis:** Cancellation-related invoice rows contributed approximately -£893.98K in calculated sales value. This value requires validation before being interpreted as refunds or financial losses.
 ## Data Quality Limitations
 
 - **Cancelled Invoices:** The Total Orders KPI counts distinct invoice numbers, including cancellation-related invoices. Therefore, it should not be interpreted as the exact number of completed orders.
